@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins";
-  background: white;
+  background-color: #46405f;
 }
 
 .container {
@@ -50,7 +50,12 @@ header a {
   display: inline-block;
   margin-top: 32px;
 }
-@media (max-width: 900px) {
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/footer.png");
+  color: white;
+}
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
