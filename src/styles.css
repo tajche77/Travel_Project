@@ -14,6 +14,7 @@ body {
 .image-responsive {
   width: 100%;
   display: block;
+  aspect-ratio: 1 /1;
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
@@ -37,6 +38,7 @@ body {
 .embed {
   width: 100%;
   aspect-ratio: 1 /1;
+  display: block;
 }
 .pinterest-embeds {
   margin: 30px 0;
@@ -70,7 +72,7 @@ section.secondary {
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-    url("../images/Lisbon.png");
+    url("../images/Valencia_plaza.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -158,7 +160,7 @@ footer {
       rgba(39, 32, 68, 0.9),
       rgba(39, 32, 68, 0.9)
     ),
-    url("../images/footer.png");
+    url("../images/Playa-Malvarrosa.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
