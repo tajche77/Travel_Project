@@ -11,18 +11,53 @@ body {
   display: grid;
   grid-gap: 64px;
 }
+.image-responsive {
+  max-width: 100%;
+  display: block;
+}
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
 .grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-3-uneven-columns {
   grid-template-columns: 1fr 2fr 2fr;
 }
-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 100px 0;
+.text-centered {
+  text-align: center;
 }
-
+.card {
+  background: white;
+  margin: 30px 0;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 0 30px 30px;
+}
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
+}
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+section.secondary {
+  background-color: #f8f8f8;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("../images/Lisbon.png");
@@ -82,6 +117,20 @@ main h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
   color: #272044;
   margin: 0;
 }
@@ -148,9 +197,7 @@ footer a {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
-  .image-responsive {
-    max-width: 100%;
-  }
+
   section {
     padding: 30px;
   }
