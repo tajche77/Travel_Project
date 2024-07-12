@@ -38,6 +38,9 @@ body {
   width: 100%;
   aspect-ratio: 1 /1;
 }
+.pinterest-embeds {
+  margin: 30px 0;
+}
 .card-body {
   padding: 30px;
 }
